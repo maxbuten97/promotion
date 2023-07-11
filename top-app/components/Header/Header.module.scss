@@ -1,3 +1,15 @@
 .Header {
-	margin-top: 78px;
+	margin-top: 30px;
+}
+
+.row,
+.callback_block,
+.callback_btn {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+.row {
+	justify-content: space-between;
 }
