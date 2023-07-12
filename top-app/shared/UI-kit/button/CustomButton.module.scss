@@ -1,0 +1,19 @@
+.btn {
+	margin-top: 90px;
+	background-color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	border: none;
+	border-radius: 12px;
+	color: rgba(76, 53, 99, 1);
+	width: 45%;
+	height: 66px;
+	cursor: pointer;
+	letter-spacing: 1px;
+	transition: all 0.4s;
+}
+.btn:hover {
+	background-color: rgb(144, 53, 235);
+	color: rgb(255, 255, 255);
+	transition-duration: 0.4s;
+}
