@@ -47,17 +47,16 @@
 .answers_block {
 	padding-left: 20px;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	flex-wrap: wrap;
 	margin-top: 120px;
-	max-height: 800px;
+	max-height: 100%;
 }
 .num,
 .question {
-	margin-top: 20px;
 	width: 50%;
-	font-size: 23px;
-	line-height: 80px;
+	font-size: 20px;
+	line-height: 40px;
 	color: rgba(32, 21, 44, 1);
 	text-transform: uppercase;
 	cursor: pointer;

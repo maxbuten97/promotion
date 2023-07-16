@@ -16,12 +16,21 @@
 
 .investors,
 .companies {
+	position: relative;
 	display: flex;
 	flex-basis: 50%;
 	align-items: center;
 	flex-direction: column;
 }
-
+.investors::after {
+	position: absolute;
+	content: "";
+	top: 15%;
+	left: 100%;
+	width: 2px;
+	height: 80%;
+	background-color: rgba(174, 173, 173, 1);
+}
 .visor {
 	display: flex;
 	justify-content: center;

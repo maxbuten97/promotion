@@ -1,0 +1,116 @@
+.Become {
+	margin-top: 150px;
+}
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	height: 100%;
+}
+.row {
+	display: flex;
+}
+.iphone_block {
+	position: relative;
+	flex-basis: 50%;
+}
+
+.message_left,
+.message_right {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: -150px;
+	height: 99px;
+	width: 350px;
+	border-radius: 12px;
+	line-height: 30px;
+	font-size: 15px;
+	color: #fff;
+	padding: 20px 25px;
+	-webkit-box-shadow: 0px 33px 58px 4px rgba(65, 73, 79, 0.5);
+	-moz-box-shadow: 0px 33px 58px 4px rgba(65, 73, 79, 0.5);
+	box-shadow: 0px 33px 58px 4px rgba(65, 73, 79, 0.5);
+}
+.text {
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+.fatty_text {
+	font-weight: 800;
+}
+.message_left {
+	background-color: rgba(136, 107, 206, 1);
+	position: absolute;
+	top: 30%;
+	left: -190px;
+}
+
+.message_right {
+	background-color: rgba(136, 191, 221, 1);
+	top: 73%;
+	left: 250px;
+}
+
+.chechmark,
+.chechmark_left {
+	display: flex;
+	display: inline-block;
+	margin-right: 15px;
+	background-color: rgba(56, 22, 97, 1);
+	text-align: center;
+	padding: 1px 7px 0 7px;
+	border-radius: 50%;
+}
+
+.chechmark_left {
+	background-color: rgba(45, 100, 131, 1);
+}
+
+.form_callback {
+	margin-left: 100px;
+	flex-basis: 50%;
+	display: flex;
+	flex-direction: column;
+	max-width: 570px;
+}
+
+.form_title {
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 130%;
+	color: rgba(76, 53, 99, 1);
+	text-transform: uppercase;
+}
+
+.form_text {
+	margin-top: 40px;
+	font-weight: 300;
+	font-size: 22px;
+	letter-spacing: 2%;
+	line-height: 33px;
+	color: rgba(76, 53, 99, 1);
+}
+
+.callback_block {
+	display: flex;
+	align-items: center;
+	height: 40%;
+	justify-content: space-between;
+}
+
+.input label {
+	height: 46px;
+	border-radius: 6px;
+	background-color: #fff;
+}
+
+.policy_block {
+	color: rgba(34, 2, 66, 1);
+	font-weight: 200;
+}
+
+.policy {
+	cursor: pointer;
+	font-weight: 200;
+}

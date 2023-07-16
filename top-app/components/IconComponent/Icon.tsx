@@ -1,11 +1,14 @@
 import { FC } from "react";
 import s from "./Icon.module.scss";
 
-import { Tel } from "../../public/svg/index";
-import { Navigation } from "../../public/svg/index";
-import { Shield } from "../../public/svg/index";
-import { Notes } from "../../public/svg/index";
-import { Star } from "../../public/svg/index";
+import {
+  Tel,
+  Navigation,
+  Shield,
+  Notes,
+  Star,
+  Checkmark,
+} from "../../public/svg/index";
 type IconComponentProps = { name: string; className?: string };
 type IconTypes = { [name: string]: ReactSVGComponent };
 
@@ -15,6 +18,7 @@ const iconTypes: IconTypes = {
   shield: Shield,
   notes: Notes,
   star: Star,
+  checkmark: Checkmark,
 };
 
 const Icon: FC<IconComponentProps> = ({ name, className, ...props }) => {
