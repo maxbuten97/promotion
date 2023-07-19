@@ -8,6 +8,7 @@ import {
   Notes,
   Star,
   Checkmark,
+  Label,
 } from "../../public/svg/index";
 type IconComponentProps = { name: string; className?: string };
 type IconTypes = { [name: string]: ReactSVGComponent };
@@ -19,6 +20,7 @@ const iconTypes: IconTypes = {
   notes: Notes,
   star: Star,
   checkmark: Checkmark,
+  label: Label,
 };
 
 const Icon: FC<IconComponentProps> = ({ name, className, ...props }) => {
